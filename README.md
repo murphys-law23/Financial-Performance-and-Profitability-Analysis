@@ -1,20 +1,21 @@
 # Financial Performance and Profitability Analysis
 
-An entry-to-intermediate portfolio case study examining revenue, operating expenses, profit margins and budget performance across three departments in 2025.
-
 **Tools:** Python · pandas · Matplotlib · SQL · Power BI DAX · HTML/CSS/JavaScript
 
-> This project uses synthetic educational data and illustrative USD amounts. It does not represent a real company's financial performance.
+## 📊 Dashboard Previews
 
-## Dashboard preview
+### Financial Analysis Overview
+![Finance Analysis](dashboard/Financial%20Analysis.png)
 
-![Financial performance dashboard with revenue, profit, expense mix and budget variance](reports/dashboard_preview.png)
+### Finance Core Metrics
+![Finance Core](dashboard/Finance.png)
+
 
 *Static preview generated from the supplied CSV using Python. The [interactive HTML dashboard](dashboard/index.html) provides quarter and department filters. Download the repository and open that file in your browser; GitHub's file viewer displays its source.*
 
 ## Business problem
 
-Finance teams need to understand whether revenue and spending are tracking to plan, which departments generate the most operating profit, and which expense categories deserve investigation.
+Finance team needed to understand whether revenue and spending are tracking to plan, which departments generate the most operating profit, and which expense categories deserve investigation.
 
 This project answers four questions:
 
