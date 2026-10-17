@@ -1,0 +1,8 @@
+Revenue = SUM(financial_transactions[revenue])
+Expenses = SUM(financial_transactions[expense])
+Operating Profit = [Revenue] - [Expenses]
+Profit Margin = DIVIDE([Operating Profit], [Revenue])
+Revenue Budget = SUM(financial_transactions[revenue_budget])
+Revenue Variance = [Revenue] - [Revenue Budget]
+Expense Budget = SUM(financial_transactions[expense_budget])
+Expense Variance Favorable = [Expense Budget] - [Expenses]
